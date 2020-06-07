@@ -102,3 +102,41 @@ form button {
 form button:hover {
   background-color: rgb(47, 184, 110);
 }
+/* aprendizados aula 3*/
+.items-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.items-grid li {
+  align-items: center;
+  background-color: rgb(240, 240, 245);
+  border: 2px solid rgb(240, 240, 245);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 32px 24px 16px;
+  text-align: center;
+}
+
+.items-grid li span {
+  align-items: center;
+  color:  var(--title-color);
+  display: flex;
+  flex: 1;
+  margin-top: 12px;
+}
+
+.items-grid li.selected {
+  background-color: rgb(225, 250, 236);
+  border: 2px solid rgb(47, 184, 110);
+}
+
+.items-grid li img, .items-grid li span {
+  pointer-events: none;
+}
