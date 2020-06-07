@@ -8,7 +8,6 @@
   <link rel="stylesheet" type="text/css" href="/style/main.css"/>
   <link rel="stylesheet" type="text/css" href="/style/create-point.css"/>
   <link rel="stylesheet" type="text/css" href="/style/responsive.css"/>
-  
   <title>Ecoleta - Figma</title>
 </head>
 
@@ -45,9 +44,11 @@
           <div class="field-group">
             <div class="field">
               <label for="state">Estado</label>
-              <select name="uf">
+              <select id="uf" name="uf">
                 <option value="">Selecione o Estado</option>
+                <option value="">Opcao estado</option>
               </select>
+              <input type="hidden" name="state"/>
             </div>
             <div class="field">
               <label for="city">Cidade</label>
@@ -67,5 +68,5 @@
       </form>
   </div>  
 </body>
-
+<script type="text/javascript" src="create-point.js"></script>
 </html>
