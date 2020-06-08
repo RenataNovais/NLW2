@@ -73,3 +73,15 @@
   background-color: rgb(47, 184, 110);
   cursor: pointer;
 }
+
+/* isto é para o modal da página point-created */
+.point .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.point h1 {
+  color: white;
+  margin-top: 32px;
+}

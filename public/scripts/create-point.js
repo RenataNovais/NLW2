@@ -52,6 +52,7 @@ function handleSelectedItem(event) {
   itemLi.classList.toggle('selected');
   // salva o id do item clicado na const itemId. 
   const itemId = itemLi.dataset.id;
+  
   // salvar no input item selecionado
   // verificar se existem itens selecionados e pegar os selecionados
   const alreadySelected = selectedItems.findIndex( item => item == itemId );
@@ -66,6 +67,7 @@ function handleSelectedItem(event) {
     // se não estiver selecionado, adicionar a seleção
     selectedItems.push(itemId);
   }
+  
   // atualizar o campo escondido com os itens selecionados
   collectedItems.value = selectedItems;
 

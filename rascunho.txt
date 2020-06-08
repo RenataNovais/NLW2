@@ -34,6 +34,22 @@ Templete Engine
 {% include "arquivo-padrão.html" %} - adiciona um arquivo no HTML. 
 exemplo feito com page-header, no search-result e no create-point, e com o modal, no index.html.
 
+aula 5
+Banco de dados
+
+SQL - structured Query Language - linguagem para realizar buscas organizadas e estruturadas.
+Para criar, consultar, atualizar e deletar dados, entre outras funções.
+
+No SQL os dados são organizados por tabelas, ou entidades ou relações, com colunas e linhas.
+
+Tecnologia SQL - SQLite - open-source, reside na pŕopria aplicação e fácil de configurar.
+
+1. instalação do sqlite - npm install sqlite3
+2. criar pasta database
+3. criar arquivo db.js
+4. importar a dependencia do sqlite3, com require.
+
+
 
 
 
